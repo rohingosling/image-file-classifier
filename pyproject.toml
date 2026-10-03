@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools==84.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "classifyimages"
+version = "1.0.0"
+description = "Offline image clustering and PNG conversion for Windows."
+requires-python = ">=3.12"
+authors = [{name = "Rohin Gosling"}]
+dependencies = [
+    "pillow==12.3.0",
+    "numpy==2.5.3",
+    "scikit-learn==1.9.1",
+    "onnxruntime==1.30.0",
+]
+
+[project.scripts]
+classifyimages = "classifyimages.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

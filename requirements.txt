@@ -1,0 +1,6 @@
+# Application dependencies and the Windows executable builder.
+pillow==12.3.0
+numpy==2.5.3
+scikit-learn==1.9.1
+onnxruntime==1.30.0
+pyinstaller==6.22.3

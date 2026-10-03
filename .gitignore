@@ -1,0 +1,23 @@
+# Generated files and local development state.
+
+# Python virtual environment
+.venv/
+venv/
+
+# Python bytecode cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Build / distribution artifacts (release binaries ship as separate release assets,
+# not committed to the repo)
+build/
+dist/
+
+# IDE / editor
+.idea/
+.vscode/
+
+# OS junk
+.DS_Store
+Thumbs.db
